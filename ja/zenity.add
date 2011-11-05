@@ -1,0 +1,9 @@
+PO4A-HEADER: mode=after;position=作者;beginboundary=^.SH
+
+.SH 日本語訳について
+
+このマニュアルページの日本語訳は、ヘルプの出力を参考に po4a を利用して
+GNOME 日本語翻訳チームの赤星　柔充 <yasumichi@vinelinux.org>
+が翻訳を行った。このマニュアルページの翻訳に問題があれば、
+赤星　柔充 <yasumichi@vinelinux.org> 宛に連絡されたい。
+

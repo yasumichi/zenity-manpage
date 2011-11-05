@@ -1,0 +1,1028 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-11-05 19:40+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: zenity.1:1
+#, no-wrap
+msgid "ZENITY"
+msgstr ""
+
+#. type: TH
+#: zenity.1:1
+#, no-wrap
+msgid "February 1st, 2003"
+msgstr ""
+
+#. type: SH
+#: zenity.1:2
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:4
+msgid "zenity - display GTK+ dialogs"
+msgstr ""
+
+#. type: SH
+#: zenity.1:4
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:7
+msgid "B<zenity> [I<options>]"
+msgstr ""
+
+#. type: SH
+#: zenity.1:7
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:12
+msgid ""
+"B<zenity> is a program that will display GTK+ dialogs, and return (either in "
+"the return code, or on standard output) the users input. This allows you to "
+"present information, and ask for information from the user, from all manner "
+"of shell scripts."
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:17
+msgid ""
+"For example, B<zenity --question> will return either 0, 1 or 5, depending on "
+"whether the user pressed I<OK>, I<Cancel> or timeout has been "
+"reached. B<zenity --entry> will output on standard output what the user "
+"typed into the text entry field."
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:20
+msgid ""
+"Comprehensive documentation is available in the GNOME Help Browser, under "
+"I<GNOME/Utilities>."
+msgstr ""
+
+#. type: SH
+#: zenity.1:20
+#, no-wrap
+msgid "OPTIONS"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:23
+msgid ""
+"This program follows the usual GNU command line syntax, with long options "
+"starting with two dashes (`-')."
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:26
+msgid "Dialog options"
+msgstr ""
+
+#. type: TP
+#: zenity.1:27
+#, no-wrap
+msgid "B<--calendar>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:30
+msgid "Display calendar dialog"
+msgstr ""
+
+#. type: TP
+#: zenity.1:30
+#, no-wrap
+msgid "B<--entry>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:33
+msgid "Display text entry dialog"
+msgstr ""
+
+#. type: TP
+#: zenity.1:33
+#, no-wrap
+msgid "B<--error>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:36
+msgid "Display error dialog"
+msgstr ""
+
+#. type: TP
+#: zenity.1:36
+#, no-wrap
+msgid "B<--file-selection>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:39
+msgid "Display file selection dialog"
+msgstr ""
+
+#. type: TP
+#: zenity.1:39
+#, no-wrap
+msgid "B<--info>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:42
+msgid "Display info dialog"
+msgstr ""
+
+#. type: TP
+#: zenity.1:42
+#, no-wrap
+msgid "B<--list>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:45
+msgid "Display list dialog"
+msgstr ""
+
+#. type: TP
+#: zenity.1:45
+#, no-wrap
+msgid "B<--notification>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:48
+msgid "Display notification"
+msgstr ""
+
+#. type: TP
+#: zenity.1:48
+#, no-wrap
+msgid "B<--progress>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:51
+msgid "Display progress indication dialog"
+msgstr ""
+
+#. type: TP
+#: zenity.1:51
+#, no-wrap
+msgid "B<--question>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:54
+msgid "Display question dialog"
+msgstr ""
+
+#. type: TP
+#: zenity.1:54
+#, no-wrap
+msgid "B<--text-info>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:57
+msgid "Display text information dialog"
+msgstr ""
+
+#. type: TP
+#: zenity.1:57
+#, no-wrap
+msgid "B<--warning>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:60
+msgid "Display warning dialog"
+msgstr ""
+
+#. type: TP
+#: zenity.1:60
+#, no-wrap
+msgid "B<--scale>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:63
+msgid "Display scale dialog"
+msgstr ""
+
+#. type: TP
+#: zenity.1:63
+#, no-wrap
+msgid "B<--color-selection>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:66
+msgid "Display color selection dialog"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:69
+msgid "General options"
+msgstr ""
+
+#. type: TP
+#: zenity.1:70
+#, no-wrap
+msgid "B<--title=TITLE>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:73
+msgid "Set the dialog title"
+msgstr ""
+
+#. type: TP
+#: zenity.1:73
+#, no-wrap
+msgid "B<--window-icon=ICONPATH>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:76
+msgid ""
+"Set the window icon with the path to an image. Alternatively, one of the "
+"four stock icons can be used: 'error', 'info', 'question' or 'warning'"
+msgstr ""
+
+#. type: TP
+#: zenity.1:76
+#, no-wrap
+msgid "B<--width=WIDTH>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:79
+msgid "Set the dialog width"
+msgstr ""
+
+#. type: TP
+#: zenity.1:79
+#, no-wrap
+msgid "B<--height=HEIGHT>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:82
+msgid "Set the dialog height"
+msgstr ""
+
+#. type: TP
+#: zenity.1:82
+#, no-wrap
+msgid "B<--timeout=TIMEOUT>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:85
+msgid "Set the dialog timeout in seconds"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:87
+msgid "Calendar options"
+msgstr ""
+
+#. type: TP
+#: zenity.1:88 zenity.1:107 zenity.1:119 zenity.1:156 zenity.1:169 zenity.1:204 zenity.1:214 zenity.1:236 zenity.1:274 zenity.1:287
+#, no-wrap
+msgid "B<--text=STRING>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:91 zenity.1:110 zenity.1:122 zenity.1:159 zenity.1:172 zenity.1:217 zenity.1:239 zenity.1:277 zenity.1:290
+msgid "Set the dialog text"
+msgstr ""
+
+#. type: TP
+#: zenity.1:91
+#, no-wrap
+msgid "B<--day=INT>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:94
+msgid "Set the calendar day"
+msgstr ""
+
+#. type: TP
+#: zenity.1:94
+#, no-wrap
+msgid "B<--month=INT>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:97
+msgid "Set the calendar month"
+msgstr ""
+
+#. type: TP
+#: zenity.1:97
+#, no-wrap
+msgid "B<--year=INT>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:100
+msgid "Set the calendar year"
+msgstr ""
+
+#. type: TP
+#: zenity.1:100
+#, no-wrap
+msgid "B<--date-format=PATTERN>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:103
+msgid ""
+"Set the format for the returned date. The default depends on the user locale "
+"or be set with the strftime style. For example %A %d/%m/%y"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:106
+msgid "Text entry options"
+msgstr ""
+
+#. type: TP
+#: zenity.1:110
+#, no-wrap
+msgid "B<--entry-text=STRING>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:113
+msgid "Set the entry text"
+msgstr ""
+
+#. type: TP
+#: zenity.1:113
+#, no-wrap
+msgid "B<--hide-text>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:116
+msgid "Hide the entry text"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:119
+msgid "Error options"
+msgstr ""
+
+#. type: TP
+#: zenity.1:122 zenity.1:159 zenity.1:239 zenity.1:277
+#, no-wrap
+msgid "B<--no-wrap>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:125 zenity.1:162 zenity.1:242 zenity.1:280
+msgid "Do not enable text wrapping"
+msgstr ""
+
+#. type: TP
+#: zenity.1:125 zenity.1:162 zenity.1:242 zenity.1:280
+#, no-wrap
+msgid "B<--no-markup>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:128 zenity.1:165 zenity.1:245 zenity.1:283
+msgid "Do not enable pango markup"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:131
+msgid "File selection options"
+msgstr ""
+
+#. type: TP
+#: zenity.1:131 zenity.1:255
+#, no-wrap
+msgid "B<--filename=FILENAME>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:134
+msgid "Set the file or directory to be selected by default"
+msgstr ""
+
+#. type: TP
+#: zenity.1:134 zenity.1:184
+#, no-wrap
+msgid "B<--multiple>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:137
+msgid "Allow selection of multiple filenames in file selection dialog"
+msgstr ""
+
+#. type: TP
+#: zenity.1:137
+#, no-wrap
+msgid "B<--directory>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:140
+msgid "Activate directory-only selection"
+msgstr ""
+
+#. type: TP
+#: zenity.1:140
+#, no-wrap
+msgid "B<--save>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:143
+msgid "Activate save mode"
+msgstr ""
+
+#. type: TP
+#: zenity.1:143
+#, no-wrap
+msgid "B<--separator=SEPARATOR>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:146
+msgid "Specify separator character when returning multiple filenames"
+msgstr ""
+
+#. type: TP
+#: zenity.1:146
+#, no-wrap
+msgid "B<--confirm-overwrite>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:149
+msgid "Confirm file selection if filename already exists"
+msgstr ""
+
+#. type: TP
+#: zenity.1:149
+#, no-wrap
+msgid "B<--file-filter=NAME | PATTERN1 PATTERN2>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:152
+msgid "Sets a filename filter"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:156
+msgid "Info options"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:168
+msgid "List options"
+msgstr ""
+
+#. type: TP
+#: zenity.1:172
+#, no-wrap
+msgid "B<--column=STRING>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:175
+msgid "Set the column header"
+msgstr ""
+
+#. type: TP
+#: zenity.1:175
+#, no-wrap
+msgid "B<--checklist>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:178
+msgid "Use check boxes for first column"
+msgstr ""
+
+#. type: TP
+#: zenity.1:178
+#, no-wrap
+msgid "B<--radiolist>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:181
+msgid "Use radio buttons for first column"
+msgstr ""
+
+#. type: TP
+#: zenity.1:181
+#, no-wrap
+msgid "B<--separator=STRING>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:184
+msgid "Set output separator character"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:187
+msgid "Allow multiple rows to be selected"
+msgstr ""
+
+#. type: TP
+#: zenity.1:187 zenity.1:258
+#, no-wrap
+msgid "B<--editable>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:190 zenity.1:261
+msgid "Allow changes to text"
+msgstr ""
+
+#. type: TP
+#: zenity.1:190
+#, no-wrap
+msgid "B<--print-column=NUMBER>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:194
+msgid ""
+"Specify what column to print to standard output. The default is to return "
+"the first column. 'ALL' may be used to print all columns."
+msgstr ""
+
+#. type: TP
+#: zenity.1:194
+#, no-wrap
+msgid "B<--hide-column=NUMBER>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:197
+msgid "Hide a specific column"
+msgstr ""
+
+#. type: TP
+#: zenity.1:197
+#, no-wrap
+msgid "B<--hide-header>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:200
+msgid "Hides the column headers"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:203
+msgid "Notification options"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:207
+msgid "Set the notification text"
+msgstr ""
+
+#. type: TP
+#: zenity.1:207
+#, no-wrap
+msgid "B<--listen>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:210
+msgid ""
+"Listen for commands on stdin. Commands include 'message', 'tooltip', 'icon', "
+"and 'visible' separated by a colon. For example, 'message: Hello world', "
+"'visible: false', or 'icon: /path/to/icon'. The icon command also accepts "
+"the four stock icon: 'error', 'info', 'question', and 'warning'"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:213
+msgid "Progress options"
+msgstr ""
+
+#. type: TP
+#: zenity.1:217
+#, no-wrap
+msgid "B<--percentage=INT>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:220
+msgid "Set initial percentage"
+msgstr ""
+
+#. type: TP
+#: zenity.1:220
+#, no-wrap
+msgid "B<--auto-close>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:223
+msgid "Close dialog when 100% has been reached"
+msgstr ""
+
+#. type: TP
+#: zenity.1:223
+#, no-wrap
+msgid "B<--auto-kill>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:226
+msgid "Kill parent process if cancel button is pressed"
+msgstr ""
+
+#. type: TP
+#: zenity.1:226
+#, no-wrap
+msgid "B<--pulsate>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:229
+msgid "Pulsate progress bar"
+msgstr ""
+
+#. type: TP
+#: zenity.1:229
+#, no-wrap
+msgid "B<--no-cancel>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:232
+msgid "Hides the cancel button"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:235
+msgid "Question options"
+msgstr ""
+
+#. type: TP
+#: zenity.1:245 zenity.1:264
+#, no-wrap
+msgid "B<--ok-label>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:248 zenity.1:267
+msgid "Set the text of the OK button"
+msgstr ""
+
+#. type: TP
+#: zenity.1:248 zenity.1:267
+#, no-wrap
+msgid "B<--cancel-label>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:251 zenity.1:270
+msgid "Set the text of the cancel button"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:254
+msgid "Text options"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:258
+msgid "Open file"
+msgstr ""
+
+#. type: TP
+#: zenity.1:261
+#, no-wrap
+msgid "B<--checkbox=TEXT>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:264
+msgid "Enable a checkbox for use like a 'I read and accept the terms.'"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:273
+msgid "Warning options"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:286
+msgid "Scale options"
+msgstr ""
+
+#. type: TP
+#: zenity.1:290
+#, no-wrap
+msgid "B<--value=VALUE>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:293
+msgid "Set initial value"
+msgstr ""
+
+#. type: TP
+#: zenity.1:293
+#, no-wrap
+msgid "B<--min-value=VALUE>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:296
+msgid "Set minimum value"
+msgstr ""
+
+#. type: TP
+#: zenity.1:296
+#, no-wrap
+msgid "B<--max-value=VALUE>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:299
+msgid "Set maximum value"
+msgstr ""
+
+#. type: TP
+#: zenity.1:299
+#, no-wrap
+msgid "B<--step=VALUE>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:302
+msgid "Set step size"
+msgstr ""
+
+#. type: TP
+#: zenity.1:302
+#, no-wrap
+msgid "B<--print-partial>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:305
+msgid "Print partial values"
+msgstr ""
+
+#. type: TP
+#: zenity.1:305
+#, no-wrap
+msgid "B<--hide-value>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:308
+msgid "Hide value"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:311
+msgid "Color selection options"
+msgstr ""
+
+#. type: TP
+#: zenity.1:312
+#, no-wrap
+msgid "B<--color=VALUE>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:315
+msgid "Set the initial color"
+msgstr ""
+
+#. type: TP
+#: zenity.1:315
+#, no-wrap
+msgid "B<--show-palette>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:318
+msgid "Show the palette"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:321
+msgid "Miscellaneous options"
+msgstr ""
+
+#. type: TP
+#: zenity.1:322
+#, no-wrap
+msgid "B<-?, --help>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:325
+msgid "Show summary of options."
+msgstr ""
+
+#. type: TP
+#: zenity.1:325
+#, no-wrap
+msgid "B<--about>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:328
+msgid "Display an about dialog."
+msgstr ""
+
+#. type: TP
+#: zenity.1:328
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:331
+msgid "Show version of program."
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:334
+msgid "Also the standard GTK+ options are accepted."
+msgstr ""
+
+#. type: SH
+#: zenity.1:335
+#, no-wrap
+msgid "ENVIRONMENT"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:340
+msgid ""
+"Normally, zenity detects the terminal window from which it was launched and "
+"keeps itself above that window.  This behavior can be disabled by unsetting "
+"the WINDOWID environment variable."
+msgstr ""
+
+#. type: SH
+#: zenity.1:341
+#, no-wrap
+msgid "EXAMPLES"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:345
+msgid ""
+"Display a file selector with the title I<Select a file to remove>. The file "
+"selected is returned on standard output."
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:347
+msgid "zenity --title=\"Select a file to remove\" --file-selection"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:351
+msgid ""
+"Display a text entry dialog with the title I<Select Host> and the text "
+"I<Select the host you would like to flood-ping>. The entered text is "
+"returned on standard output."
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:353
+msgid ""
+"zenity --title \"Select Host\" --entry --text \"Select the host you would "
+"like to flood-ping\""
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:357
+msgid ""
+"Display a dialog, asking I<Microsoft Windows has been found! Would you like "
+"to remove it?>. The return code will be 0 (true in shell)  if I<OK> is "
+"selected, and 1 (false) if I<Cancel> is selected."
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:359
+msgid ""
+"zenity --question --title \"Alert\" --text \"Microsoft Windows has been "
+"found! Would you like to remove it?\""
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:362
+msgid ""
+"Show the search results in a list dialog with the title I<Search Results> "
+"and the text I<Finding all header files...>."
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:364
+msgid ""
+"find . -name '*.h' | zenity --list --title \"Search Results\" --text "
+"\"Finding all header files..\" --column \"Files\""
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:366
+msgid "Show a notification in the message tray"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:368
+msgid ""
+"zenity --notification --window-icon=update.png --text \"System update "
+"necessary!\""
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:370
+msgid ""
+"Display a weekly shopping list in a check list dialog with I<Apples> and "
+"I<Oranges> pre selected"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:372
+msgid ""
+"zenity --list --checklist --column \"Buy\" --column \"Item\" TRUE Apples "
+"TRUE Oranges FALSE Pears FALSE Toothpaste"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:374
+msgid ""
+"Display a progress dialog while searching for all the postscript files in "
+"your home directory"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:376
+msgid "find $HOME -name '*.ps' | zenity --progress --pulsate"
+msgstr ""
+
+#. type: SH
+#: zenity.1:376
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:378
+msgid "B<Zenity> was written by Glynn Foster E<lt>glynn.foster@sun.comE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:380
+msgid "This manual page was written by Ross Burton E<lt>ross@burtonini.comE<gt>."
+msgstr ""
+
+#. type: SH
+#: zenity.1:381
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: zenity.1:382
+msgid "B<gdialog>(1), B<dialog>(1)"
+msgstr ""
