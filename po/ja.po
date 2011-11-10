@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zenity-manpage master\n"
 "POT-Creation-Date: 2011-11-05 19:40+0900\n"
-"PO-Revision-Date: 2011-11-05 23:30+0900\n"
+"PO-Revision-Date: 2011-11-10 23:17+0900\n"
 "Last-Translator: Yasumichi Akahoshi <yasumichi@vinelinux.org>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -77,9 +77,10 @@ msgid ""
 "B<zenity --entry> will output on standard output what the user typed into "
 "the text entry field."
 msgstr ""
-"例えば、ユーザーが I<OK> 、I<キャンセル> を押したり、タイムアウトに達した場"
-"合、それぞれ 0、 1 、 5 を返す。B<zenity --entry> を実行すると テキスト入力欄"
-"にユーザーが入力した内容を標準出力へ出力する。"
+"例えば、B<zenity --question> に対し、ユーザーが I<OK> 、I<キャンセル> を押し"
+"たり、タイムアウトに達した場合、それぞれ 0、 1 、 5 を返す。B<zenity --"
+"entry> を実行すると テキスト入力欄にユーザーが入力した内容を標準出力へ出力す"
+"る。"
 
 #. type: Plain text
 #: zenity.1:20
@@ -88,7 +89,7 @@ msgid ""
 "I<GNOME/Utilities>."
 msgstr ""
 "包括的なドキュメンテーションは、I<GNOME/ユーティリティ> の GNOME ヘルプブラウ"
-"ザで利用可能である。"
+"ザーで利用可能である。"
 
 #. type: SH
 #: zenity.1:20
@@ -1004,7 +1005,7 @@ msgid ""
 "\"Finding all header files..\" --column \"Files\""
 msgstr ""
 "find . -name '*.h' | zenity --list --title \"検索結果\" --text \"すべてのヘッ"
-"ダファイルを検索中...\" --column \"Files\""
+"ダーファイルを検索中...\" --column \"Files\""
 
 #. type: Plain text
 #: zenity.1:366
